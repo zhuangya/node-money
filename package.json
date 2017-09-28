@@ -1,0 +1,25 @@
+{
+  "name": "@zhuangya/money",
+  "version": "0.0.1",
+  "description": "better toString and valueOf for money",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangya/node-money.git"
+  },
+  "author": "Ya Zhuang <zhuangya@gmail.com> (https://zhuangya.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangya/node-money/issues"
+  },
+  "homepage": "https://github.com/zhuangya/node-money#readme",
+  "dependencies": {
+    "accounting": "^0.4.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
