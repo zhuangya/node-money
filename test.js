@@ -3,8 +3,8 @@
 const m = require('./');
 
 test('valueOf as numebr', () => {
-  expect(m(42) + 1).toBe(43);
-  expect(m(1) + m(1) + m(1)).toBe(3);
+  expect(m(42).add(1)).toMatchSnapshot();
+  expect(m(1).add(m(1)).add(m(1))).toMatchSnapshot();
 });
 
 test('toString as accounting.js formatted result', () => {

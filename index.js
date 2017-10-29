@@ -1,9 +1,11 @@
 'use strict';
 
+const Big = require('big.js');
 const { formatMoney } = require('accounting');
 
-class Money {
+class Money extends Big {
   constructor(value, ...options) {
+    super(value);
     this.value = value;
     this.options = options;
   }
@@ -13,7 +15,7 @@ class Money {
   }
 
   valueOf() {
-    return this.value;
+    return this;
   }
 }
 

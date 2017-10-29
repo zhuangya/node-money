@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`valueOf as numebr 1`] = `"43"`;
+
+exports[`valueOf as numebr 2`] = `"3"`;
